@@ -1,16 +1,20 @@
 # CNVProcessor Package Documentation
 
 ##1. Introduction
+
    The package relies heavily on the GenomicRanges package, which can be used to fill uncovered CNV areas (default CN=2),
    And the CNV region of multiple samples can be segmented so that two (or more) samples can compare the CN of the same region.
    In addition, several plotting functions are provided in the package that can be used to simply plot the CNV of a single sample or multiple samples and the results of sample comparisons.
 
 ##2. Installation
-```r
-devtools::install_github("LimuLou/CNVProcessor")
+
+   ```r
+   devtools::install_github("LimuLou/CNVProcessor")
 
 ##3. Result examples
+
    ###3.1 Fill the uncovered CNV regions on the chromosomes
+
   ##### Before
 | seqnames | ranges         | strand | cn |
 |:---------|:---------------|:------:|:--:|
