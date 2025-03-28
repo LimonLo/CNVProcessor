@@ -1,0 +1,30 @@
+Package: CNVProcessor
+Title: Populate, compare, annotate and plot CNV data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Lemon", family = "Lou", email = "lemonlou@126.com", role = c("aut", "cre"))
+Description: For CNV data, if the chromosomes in the CNV data are not sequential, 
+    this package can be used to fill the uncovered region \(default CN=2\), 
+    and the CNV region of multiple samples can be segmented so that two \(or more samples\) can compare the CN of the same region.
+    In addition, there are several drawing functions in the package that can be used to simply plot the CNV of a single sample or multiple samples, 
+    as well as the results of the sample comparison.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    AnnotationDbi,
+    BSgenome.Hsapiens.UCSC.hg19,
+    BSgenome.Hsapiens.UCSC.hg38,
+    dplyr,
+    GenomeInfoDb,
+    ggplot2,
+    magrittr,
+    org.Hs.eg.db,
+    plyranges,
+    purrr,
+    S4Vectors,
+    tidyr,
+    utils
+Depends: 
+    GenomicRanges
