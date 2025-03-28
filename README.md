@@ -8,7 +8,6 @@
 
 ##2. Installation
 
-   ```r
    devtools::install_github("LimuLou/CNVProcessor")
 
 ##3. Result examples
