@@ -133,7 +133,7 @@ mCNVplot <- function(data_list,
     ) +
     # Set facets and axes
     ggplot2::facet_grid(
-      rows = vars(sample_id),
+      rows = dplyr::vars(sample_id),
       switch = "y",
       scales = "free_y"
     ) +
