@@ -44,6 +44,7 @@
 | chr1     | 32454248 | 53181527 | 20727280 | *      | 2  | 100130557 | NFYC-AS1    |
 | chr1     | 32454248 | 53181527 | 20727280 | *      | 2  | 100132774 | KDM4A-AS1   |
 
+
    ###3.4 Plot for different CNV regions between samples
  
  ![](inst/extdata/cmpCNVplot_example.png)
